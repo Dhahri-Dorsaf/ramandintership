@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Tajawal:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+* {
+
+    font-family: 'Tajawal', sans-serif;
+}
+
+/* Declaration of css variables*/
+:root {
+    --main-color: #5FAD51;
+    --main-font-size: 16px;
+}
+
+/* Declaration of css variables*/
+
+
+
+/*  Start styling the nav*/
+nav {
+
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 0;
+}
+
+.navbar-brand img {
+
+    margin-left: 40px;
+}
+
+.collapse ul li {
+    font-size: var(--main-font-size);
+    margin-left: 14px;
+
+}
+
+.collapse ul li a {
+    color: #242A37;
+}
+
+.collapse ul li:first-child a {
+    color: var(--main-color)
+}
+
+.collapse ul li:hover a {
+    color: var(--main-color)
+}
+
+.left-navbar ul li {
+    display: inline-block;
+}
+
+.left-navbar {
+    margin-top: 20px;
+}
+
+.left-navbar ul li a {
+    text-decoration: none;
+    color: #242A37;
+}
+
+.btn-xl {
+    width: 146px;
+    height: 48px;
+ 
+}
+.btn{
+    border-radius: 25px ! important;
+    box-shadow: 0px 12px 30px #72D66033;
+}
+#myButton {
+    background-color: #5FAD51;
+}
+#hoverButton:hover{
+    background-color: #094E81;
+}
+#lang{
+    color: #094E81;
+}
+/*  End styling the nav*/
